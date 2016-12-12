@@ -17,14 +17,10 @@ public class UserController {
     @Autowired
     private UserService userService;
  
-    /*
-     *  http://localhost:8080/getUserInfo
-     */
- 
     @RequestMapping("/getUserInfo")
     @ResponseBody
     public User getUserInfo() {
-        User user = userService.getUserInfo();
+        User user = userService.getUserInfo("7player");
         if(user!=null){
             System.out.println("user.getName():"+user.getName());
             logger.info("user.getAge():"+user.getAge());
