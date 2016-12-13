@@ -4,20 +4,21 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.Type;
+
 /**
  * @author san
  * @version 创建时间：2016年12月13日 下午5:42:46 
  */
 
 @Entity
-@Table(name = "article")
 public class Article extends BaseModel{
 	
 	@Column(length = 800, nullable = false)
 	private String title;
 	
-	@Column(length = 65535, nullable = false)
-	private String content;
+	@Type(type="text")
+    private String content;
 	
 	@Column(nullable = false)
 	private int category;

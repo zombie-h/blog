@@ -17,7 +17,7 @@ import javax.persistence.MappedSuperclass;
 public abstract class BaseModel {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue
 	private Integer id;// 数据库主键
 
 	@Column(nullable = false)
