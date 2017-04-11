@@ -14,7 +14,7 @@ import org.hibernate.annotations.Type;
 @Entity
 public class Article extends BaseModel{
 	
-	@Column(length = 800, nullable = false)
+	@Column(length = 100, nullable = false)
 	private String title;
 	
 	@Type(type="text")

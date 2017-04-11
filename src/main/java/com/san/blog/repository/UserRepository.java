@@ -6,7 +6,7 @@ import org.springframework.data.repository.query.Param;
 
 import com.san.blog.model.User;
 
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<User, Integer> {
 	
 	User findByName(String name);
 	

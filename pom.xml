@@ -10,6 +10,11 @@
 		<version>1.4.2.RELEASE</version>
 	</parent>
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 		<!-- web支持: 1、web mvc; 2、restful; 3、jackjson支持; 4、aop ........ -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

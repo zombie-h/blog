@@ -6,11 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class User {
-
-	@Id
-	@GeneratedValue
-	private long id;
+public class User extends BaseModel{
 
 	@Column(nullable = false)
 	private String name;
@@ -20,14 +16,6 @@ public class User {
 
 	@Column(nullable = true)
 	private String password;
-
-	public long getId() {
-		return id;
-	}
-
-	public void setId(long id) {
-		this.id = id;
-	}
 
 	public String getName() {
 		return name;
