@@ -1,8 +1,44 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-	background-color: #000000;
+	background-color: #FFFFFF;
 }
 
-.container .row{
-	padding: 15px;
+body {
+    font-size: 12px;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+hr {
+	margin: 10px 5px;
+}
+
+.well {
+	margin-bottom: 5px;	
+}
+
+.blog-title{
+    font-size:16px;
+}
+
+footer.site-info {
+	color: #5e8284;
+    font-size: 12px;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.container {
+	opacity:0.95;
+}
+
+body.custom-background {
+	background-color: #000000;
+    background-image: url(http://www.bysocket.com/wp-content/uploads/2017/02/8d5494eef01f3a29ff3d24269925bc315d607c65.jpg);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }

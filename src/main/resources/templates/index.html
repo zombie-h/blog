@@ -17,79 +17,89 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<div class="panel panel-default" style="padding: inherit;">
-						<h2>
-                            <a href="javascript:;" class="blog-title" style="display: none">测试</a>
-                        </h2>
-						<h2>
-                            <a href="http://blog.taoluoluo.win/blog/11" class="blog-title-new">测试</a>
-                        </h2>
-						<p>
-							<span><i class="fa fa-eye" aria-hidden="true"></i> 160</span> .
-							<span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</span> .
-							<span><i class="fa fa-comments-o" aria-hidden="true"></i> 0</span> .
-							<span class="glyphicon glyphicon-time"></span> Posted on 2016-10-19
-						</p>
-						<hr/>
-						<div class="blog-subject well">
-							<p>测试</p>
-						</div>
-						<div class="blog-content well" style="display: none;overflow-x: hidden;">
-							<p>测试</p>
-
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="blog-title">
+								<a href="#">测试</a>
+							</div>
+							<div class="blog-statistics">
+								<span><i class="fa fa-eye" aria-hidden="true"></i> 7</span> .
+								<span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 0</span> .
+								<span><i class="fa fa-comments-o" aria-hidden="true"></i> 0</span> .
+								<span class="glyphicon glyphicon-time"></span> 发表于 2017-04-19
+							</div>
+							<hr/>
+							<div class="well">
+								测试
+							</div>
 						</div>
 					</div>
-					<div class="panel panel-default" style="padding: inherit;">
-						<h2>
-                            <a href="javascript:;" class="blog-title" style="display: none">测试</a>
-                        </h2>
-						<h2>
-                            <a href="http://blog.taoluoluo.win/blog/11" class="blog-title-new">测试</a>
-                        </h2>
-						<p>
-							<span><i class="fa fa-eye" aria-hidden="true"></i> 160</span> .
-							<span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</span> .
-							<span><i class="fa fa-comments-o" aria-hidden="true"></i> 0</span> .
-							<span class="glyphicon glyphicon-time"></span> Posted on 2016-10-19
-						</p>
-						<hr/>
-						<div class="blog-subject well">
-							<p>测试</p>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="blog-title">
+								<a href="#">测试</a>
+							</div>
+							<div class="blog-statistics">
+								<span><i class="fa fa-eye" aria-hidden="true"></i> 7</span> .
+								<span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 0</span> .
+								<span><i class="fa fa-comments-o" aria-hidden="true"></i> 0</span> .
+								<span class="glyphicon glyphicon-time"></span> 发表于 2017-04-19
+							</div>
+							<hr/>
+							<div class="well">
+								测试
+							</div>
 						</div>
-						<div class="blog-content well" style="display: none;overflow-x: hidden;">
-							<p>测试</p>
-
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="blog-title">
+								<a href="#">测试</a>
+							</div>
+							<div class="blog-statistics">
+								<span><i class="fa fa-eye" aria-hidden="true"></i> 7</span> .
+								<span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 0</span> .
+								<span><i class="fa fa-comments-o" aria-hidden="true"></i> 0</span> .
+								<span class="glyphicon glyphicon-time"></span> 发表于 2017-04-19
+							</div>
+							<hr/>
+							<div class="well">
+								测试
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="well">
-						<h4>Blog Search</h4>
-						<div class="input-group">
-							<input type="text" class="form-control" />
-							<span class="input-group-btn">
-                        <button class="btn btn-default" type="button">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h4>Blog Search</h4>
+							<div class="input-group">
+								<input type="text" class="form-control" />
+								<span class="input-group-btn">
+                        	<button class="btn btn-default" type="button">
                                 <span class="glyphicon glyphicon-search"></span>
-							</button>
-							</span>
+								</button>
+								</span>
+							</div>
 						</div>
-						<!-- /.input-group -->
 					</div>
-					<div class="well">
-						<h4>Blog Categories</h4>
-						<div class="row">
-							<div class="col-lg-12">
-								<ul class="list-unstyled">
-									<li><a href="http://blog.taoluoluo.win/category/0">Default</a>
-									</li>
-								</ul>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h4>Blog Categories</h4>
+							<div class="row">
+								<div class="col-lg-12">
+									<ul class="list-unstyled">
+										<li><a href="/category/0">默认</a></li>
+										<li><a href="/category/1">测试</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div th:include="common/footer::footer"></div>
 		</div>
-		<div th:include="common/footer::footer"></div>
 	</body>
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
